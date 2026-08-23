@@ -10,20 +10,28 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "User")
-public class User implements Serializable { 
+@Table(name = "Users")
+public class User implements Serializable {
+
     @Id
-    @Column(name = "id", nullable = false)
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id", nullable = false)
     private Long id;
+
     @Column(name = "name", nullable = false)
     private String name;
-    @Column(name = "email", nullable = false)
+
+    @Column(name = "email", nullable = false, unique = true)
     private String email;
+
     @Column(name = "password", nullable = false)
     private String password;
+
     @Column(name = "role", nullable = false)
     private String role;
+
+    public User() {
+    }
 
     public User(String name, String email, String password, String role) {
         this.name = name;
@@ -32,7 +40,21 @@ public class User implements Serializable {
         this.role = role;
     }
 
-    // Getters and setters
+    public User(String name, String email, String password) {
+        this.name = name;
+        this.email = email;
+        this.password = password;
+        this.role = "USER";
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     public String getName() {
         return name;
     }

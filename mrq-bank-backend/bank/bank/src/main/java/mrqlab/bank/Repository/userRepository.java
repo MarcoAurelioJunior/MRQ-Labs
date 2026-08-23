@@ -8,11 +8,9 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import mrqlab.bank.models.User;
 
 //Connection with DataBase
-public interface userRepository extends JpaRepository<User, Long> {
-    
-    // List<User> search(String term);
+public interface UserRepository extends JpaRepository<User, Long> {
 
-    // Optional<User> findByUserAndPassword(String email, String password);
+    Optional<User> findByEmail(String email);
 
-    // Optional<User> findByEmail(String email);
+    boolean existsByEmail(String email);
 }
