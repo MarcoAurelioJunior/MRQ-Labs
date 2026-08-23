@@ -1,7 +1,7 @@
-package mrqlab.bank.Security.User;
+package mrqlab.bank.security;
 
-import mrqlab.bank.Repository.UserRepository;
-import mrqlab.bank.Security.User.*;
+import mrqlab.bank.security.*;
+import mrqlab.bank.user.UserRepository;
 
 public class CustomUserDetailsService implements UserDetailsServicevice {
     private final UserRepository userRepository;

@@ -1,4 +1,4 @@
-package mrqlab.bank.Security;
+package mrqlab.bank.security;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

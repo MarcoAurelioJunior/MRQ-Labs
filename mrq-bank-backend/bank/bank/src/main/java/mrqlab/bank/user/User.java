@@ -1,4 +1,4 @@
-package mrqlab.bank.models;
+package mrqlab.bank.user;
 
 import java.io.Serializable;
 

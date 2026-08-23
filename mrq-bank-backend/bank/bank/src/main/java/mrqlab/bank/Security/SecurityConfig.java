@@ -1,4 +1,4 @@
-package mrqlab.bank.Security;
+package mrqlab.bank.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

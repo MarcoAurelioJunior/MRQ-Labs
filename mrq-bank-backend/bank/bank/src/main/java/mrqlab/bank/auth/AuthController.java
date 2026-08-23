@@ -1,23 +1,20 @@
-package mrqlab.bank.Controllers;
+package mrqlab.bank.auth;
 
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import mrqlab.bank.Repository.UserRepository;
-import mrqlab.bank.Services.userService;
-import mrqlab.bank.models.User;
+import mrqlab.bank.user.User;
+import mrqlab.bank.user.UserService;
 
 @RestController
 @RequestMapping("/auth")
 public class AuthController {
 
-    private final userService userService;
+    private final UserService userService;
 
-    public AuthController(userService userService) {
+    public AuthController(UserService userService) {
         this.userService = userService;
     }
 

@@ -1,18 +1,14 @@
-package mrqlab.bank.Services;
+package mrqlab.bank.User;
 
 import java.lang.foreign.Linker.Option;
-import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
-import mrqlab.bank.Repository.UserRepository;
-import mrqlab.bank.models.User;
-
 @Service
-public class userService {
+public class UserService {
     private final UserRepository userRepository;
 
-    public userService(UserRepository userRepository) {
+    public UserService(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
 

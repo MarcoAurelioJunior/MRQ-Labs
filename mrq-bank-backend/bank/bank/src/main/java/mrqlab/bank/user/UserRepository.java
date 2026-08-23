@@ -1,11 +1,9 @@
-package mrqlab.bank.Repository;
+package mrqlab.bank.User;
 
 import java.util.List;
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-
-import mrqlab.bank.models.User;
 
 //Connection with DataBase
 public interface UserRepository extends JpaRepository<User, Long> {
