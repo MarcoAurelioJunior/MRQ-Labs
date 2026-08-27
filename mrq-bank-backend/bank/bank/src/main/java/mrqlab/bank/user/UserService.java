@@ -1,18 +1,21 @@
-package mrqlab.bank.User;
+package mrqlab.bank.user;
 
-import java.lang.foreign.Linker.Option;
 
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 @Service
 public class UserService {
     private final UserRepository userRepository;
+    private final PasswordEncoder passwordEncoder;
 
-    public UserService(UserRepository userRepository) {
+    public UserService(UserRepository userRepository, PasswordEncoder passwordEncoder) {
         this.userRepository = userRepository;
+        this.passwordEncoder = passwordEncoder;
     }
 
     public void saveUser(User user) {
+        user.setPassword(passwordEncoder.encode(user.getPassword())); 
         try {
             userRepository.save(user);
         } catch (Exception e) {
@@ -20,18 +23,4 @@ public class UserService {
         }
     }
 
-    public boolean signinUser(String email, String password) {
-
-        Optional<User> foundUser = userRepository.findByEmail(email);
-
-        if (foundUser.isEmpty()) {
-            return false;
-        }
-
-        User user = foundUser.get();
-
-        return passwordEncoder.matches(
-                password,
-                user.getPassword());
-    }
 }

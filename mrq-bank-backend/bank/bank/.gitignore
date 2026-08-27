@@ -5,9 +5,7 @@ target/
 !**/src/test/**/target/
 
 ### Env / secrets ###
-.env
-*.env
-!.env.example
+secrets.properties
 
 ### STS ###
 .apt_generated
