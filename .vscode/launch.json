@@ -6,7 +6,8 @@
 			"name": "BankApplication",
 			"request": "launch",
 			"mainClass": "mrqlab.bank.BankApplication",
-			"projectName": "bank"
+			"projectName": "bank",
+			"cwd": "${workspaceFolder}/mrq-bank-backend/bank/bank"
 		},
 		{
 			"type": "totvs_language_debug",

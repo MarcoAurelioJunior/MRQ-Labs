@@ -1,5 +1,6 @@
 {
     "totvsLanguageServer.welcomePage": false,
     "totvsLanguageServer.editor.linter.includes": "C:\\Users\\marco\\Documents\\Includes\\25-11-07-P12_INCLUDES",
-    "java.compile.nullAnalysis.mode": "automatic"
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "interactive"
 }

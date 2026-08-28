@@ -1,0 +1,246 @@
+{
+  "main": {
+    "id": "22890557f0b9cef7",
+    "type": "split",
+    "children": [
+      {
+        "id": "6d3fb2b0c197c908",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "51bfb06242566578",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Conceitos/PasswordEncoder.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PasswordEncoder"
+            }
+          },
+          {
+            "id": "cdb6b488d0f39cca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Roadmap.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Roadmap"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "8f9d5fcc714b0464",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "895e7f08e9f7ca28",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3fbcfa5154b65efc",
+    "type": "split",
+    "children": [
+      {
+        "id": "17f9eec8316289cf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6371fadc5fa72705",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "761dd4707a911f72",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "37df2510f44a1ff0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6980b9fa313e72d1",
+    "type": "split",
+    "children": [
+      {
+        "id": "5d88618d136f940c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d226f1550ca36b28",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Roadmap.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para Roadmap"
+            }
+          },
+          {
+            "id": "a1a3d4289b34a464",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Roadmap.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para Roadmap"
+            }
+          },
+          {
+            "id": "62618a83c43bce5f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "b2951439a90af185",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "5346de1e65e60fa9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Roadmap.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de Roadmap"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false
+    }
+  },
+  "active": "cdb6b488d0f39cca",
+  "lastOpenFiles": [
+    "Conceitos/DTO.md",
+    "Conceitos/Package by Feature.md",
+    "Conceitos/PasswordEncoder.md",
+    "Conceitos/BCrypt.md",
+    "Conceitos/UserDetailsService.md",
+    "00 - Mapa do Projeto.md",
+    "Conceitos/AuthenticationManager.md",
+    "Erros e Debugging/spring-dotenv incompatível com Boot 4.md",
+    "Erros e Debugging/spring-dotenv incompatível com Boot 4.md.tmp.73036.8e8b422da65e",
+    "Erros e Debugging/JAVA_HOME apontando pro JRE errado.md",
+    "Erros e Debugging/JAVA_HOME apontando pro JRE errado.md.tmp.73036.5c727628d100",
+    "Erros e Debugging",
+    "Fluxos/Fluxo de Signin.md",
+    "Fluxos/Fluxo de Signin.md.tmp.73036.edacfebc76f0",
+    "Fluxos/Fluxo de Signup.md",
+    "Fluxos/Fluxo de Signup.md.tmp.73036.b1167e2577ae",
+    "Fluxos",
+    "Decisões/Signup revela email duplicado - trade-off.md",
+    "Decisões/Por que spring.config.import em vez de spring-dotenv.md",
+    "Decisões/Por que AuthService separado do UserService.md",
+    "Decisões",
+    "Conceitos/DTO.md.tmp.73036.061da3d69655",
+    "Conceitos/PasswordEncoder.md.tmp.73036.9d2707346fd4",
+    "Conceitos/AuthenticationManager.md.tmp.73036.46155631ad4c",
+    "Bem-vindo.md",
+    "Roadmap.md"
+  ]
+}
